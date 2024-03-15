@@ -11,11 +11,11 @@ import requests
 # import matplotlib.pyplot as plt
 # ^ matplotlib is great for visualising data and for testing purposes but usually not needed for production
 API_URL = "https://api-inference.huggingface.co/models/Salesforce/blip-image-captioning-large"
-headers = {"Authorization": "Bearer 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"}
+headers = {"Authorization": "Bearer {}"}
 
 
 load_dotenv()
-openai.api_key = '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'
+openai.api_key = ''
 model = 'gpt-3.5-turbo'
 # Set up the speech recognition and text-to-speech engines
 r = sr.Recognizer()
