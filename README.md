@@ -1,4 +1,4 @@
-# Wearable Voice Assistant
+# Wearable Voice Assistant For The Visually Impaired
 
 ## Overview
 Wearable Voice Assistant is a project aimed at assisting visually impaired individuals by providing them with a voice-based interface to interact with technology. This project utilizes OpenAI's GPT-3.5 language model to answer questions and communicate with the user, as well as integrating image description capabilities using images captured by ESP32-CAM.
@@ -32,10 +32,3 @@ Contributions to the Wearable Voice Assistant project are welcome. If you'd like
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgements
-- OpenAI for providing access to the GPT-3.5 model.
-- Espressif Systems for developing the ESP32-CAM module.
-- Contributors to the project.
-
-## Contact
-For any inquiries or support regarding the Wearable Voice Assistant project, feel free to contact us at example@email.com.
