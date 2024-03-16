@@ -7,12 +7,8 @@ import pyttsx3
 import numpy as np
 import requests
 
-# from os.path import join, dirname
-# import matplotlib.pyplot as plt
-# ^ matplotlib is great for visualising data and for testing purposes but usually not needed for production
 API_URL = "https://api-inference.huggingface.co/models/Salesforce/blip-image-captioning-large"
-headers = {"Authorization": "Bearer {}"}
-
+headers = {"Authorization": "Bearer {api-key}"}
 
 load_dotenv()
 openai.api_key = ''
@@ -23,14 +19,12 @@ engine = pyttsx3.init()
 voice = engine.getProperty('voices')[1]
 engine.setProperty('voice', voice.id)
 name = "YOUR NAME HERE"
-greetings = [f"whats up master {name}",
-             "yeah?",
-             "Well, hello there, Master of Puns and Jokes - how's it going today?",
-             f"Ahoy there, Captain {name}! How's the ship sailing?",
-             f"Bonjour, Monsieur {name}! Comment ça va? Wait, why the hell am I speaking French?"]
+greetings = [f"greetings {name}",
+             "hola",
+             "Hey there, how's it going today?",
+             f"Hello, how's your day going so far?"]
 
 
-# Listen for the wake word "hey pos"
 def listen_for_wake_word(source):
     print("Listening for 'Hello'...")
 
@@ -92,7 +86,7 @@ def listen_and_respond(source):
             break
 
 
-image_url = "http://192.168.0.100/640x480.jpg"
+image_url = "http://192.168.0.100/640x480.jpg" #This is the url of esp32 cam
 def query():
     # Retrieve the image data from the URL
     image_data = requests.get(image_url).content
