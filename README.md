@@ -10,8 +10,8 @@ Wearable Voice Assistant is a project aimed at assisting visually impaired indiv
 - Accessibility: Designed specifically for visually impaired individuals to improve their interaction with technology.
 
 ## Installation
-1. Clone the repository: `git clone https://github.com/yourusername/wearable-voice-assistant.git`
-2. Install required dependencies: pip install openai python-dotenv speechrecognition pyttsx3 numpy pyaudio
+1. Clone the repository: `git clone https://github.com/in-explicable/wearable-voice-assistant-for-the-visually-impaired.git`
+2. Install required dependencies: `pip install openai python-dotenv speechrecognition pyttsx3 numpy pyaudio`
 3. Set up ESP32-CAM:
 - Follow instructions provided by the ESP32-CAM documentation to configure and connect the camera module.
 4. Obtain GPT-3.5 API key:
