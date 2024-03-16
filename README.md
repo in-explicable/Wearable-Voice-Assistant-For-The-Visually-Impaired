@@ -18,6 +18,8 @@ Wearable Voice Assistant is a project aimed at assisting visually impaired indiv
 - Visit the OpenAI website to obtain an API key for accessing the GPT-3.5 model.
 5. Configure API key:
 - Add your OpenAI API key to the appropriate configuration file or environment variable.
+6. For image description, BLIP (Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation) model was deployed.
+  https://huggingface.co/Salesforce/blip-image-captioning-large
 
 
 ## Contribution
